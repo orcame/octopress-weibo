@@ -21,13 +21,14 @@ Of cause you can copy it to your .theme/your_theme/source/_include/asides folder
 Config your  ```_config.yml``` file.
 
 1. add `asides/weibo.html` to your default_asides array. 
-2. add the following configurations to the end of your ```_config.yml```.
-3. navigate to http://app.weibo.com/tool?topnav=1&wvr=5 to get some necessary values.
 
-After the 3 step, you may got the following code snippet.
+2. navigate to http://app.weibo.com/tool?topnav=1&wvr=5 to get some necessary values.
+
+After the 2 step, you may got the following code snippet.
 ```html
 <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=3835412420&verifier=61ac6817&dpc=1"></iframe>
 ```
+3. add the following configurations to the end of your ```_config.yml```.
 
 ```yaml
 # Display sina weibo show
@@ -48,5 +49,4 @@ rake generate
 rake deploy
 ```  
 
-
-
+**Notice:** This plugin is worked fine on my theme(based on bootstrap), maybe you need adjust some class value or other code on your own theme. You can just reference this code.
