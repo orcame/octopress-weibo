@@ -20,15 +20,16 @@ Of cause you can copy it to your .theme/your_theme/source/_include/asides folder
 
 Config your  ```_config.yml``` file.
 
-1. add `asides/weibo.html` to your default_asides array. 
++ add `asides/weibo.html` to your default_asides array. 
 
-2. navigate to http://app.weibo.com/tool?topnav=1&wvr=5 to get some necessary values.
++ navigate to http://app.weibo.com/tool?topnav=1&wvr=5 to get some necessary values.
 
-After the 2 step, you may got the following code snippet.
+After this step, you may got the following code snippet.
 ```html
 <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=3835412420&verifier=61ac6817&dpc=1"></iframe>
 ```
-3. add the following configurations to the end of your ```_config.yml```.
+
++ add the following configurations to the end of your ```_config.yml```.
 
 ```yaml
 # Display sina weibo show
